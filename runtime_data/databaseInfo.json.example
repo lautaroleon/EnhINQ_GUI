@@ -1,0 +1,7 @@
+{
+    "server":"localhost",
+    "port":3306,
+    "DBName":"INQNET_GUI",
+    "user":"GUI3",
+    "pass":"changeMe"
+}

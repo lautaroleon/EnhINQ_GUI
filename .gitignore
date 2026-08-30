@@ -1,0 +1,32 @@
+# --- Compiled objects / qmake build files ---
+*.o
+*.obj
+*.a
+Makefile
+Makefile.*
+.qmake.stash
+object_script.*.release
+object_script.*.debug
+
+# --- Qt Creator / uic / moc / rcc generated sources ---
+moc_*
+ui_*.h
+qrc_*.cpp
+
+# --- Qt Creator project/editor settings (machine-specific) ---
+*.pro.user
+*.pro.user.*
+*.autosave
+
+# --- Shadow build output directories (per build configuration) ---
+debug/
+release/
+profile/
+build-*/
+
+# --- Misc ---
+RawTS_*
+*.log
+
+# --- Local secrets, not checked in (see runtime_data/databaseInfo.json.example) ---
+runtime_data/databaseInfo.json

@@ -1,0 +1,6 @@
+14_01_2022_18_57_49	 Tab 2 	channel3/Left_PlotA/WinL1/AND/Right_PlotB/WinR2	channel5/Left_1/AND/Right_4	
+14_01_2022_19_14_51	 Tab 2 	channel2/Left_1/AND/Right_/OR/Right_0	channel3/Left_1/AND/Right_/OR/Right_2	
+14_01_2022_19_17_23	 Tab 2 	channel3/Left_2/OR/Right_0	channel4/Left_1/OR/Right_3	
+14_01_2022_19_17_50	 Tab 2 	channel3/Left_2/AND/Right_0	channel4/Left_1/OR/Right_3	
+14_01_2022_19_18_04	 Tab 2 	channel3/Left_2/AND/Right_0	channel4/Left_1/OR/Right_3	
+14_01_2022_19_18_21	 Tab 2 	channel3/Left_2/OR/Right_0	channel4/Left_1/AND/Right_3	

@@ -1,0 +1,67 @@
+28_10_2022_21_20_21	 Tab 2 	channel0/Left_PlotB/WinL1/AND/Right_PlotC/WinR1	
+29_10_2022_13_48_57	 Tab 2 	channel0/Left_PlotB/WinL1/AND/Right_PlotC/WinR1	
+29_10_2022_13_51_29	 Tab 2 	channel0/Left_PlotB/WinL1/AND/Right_PlotC/WinR1	
+29_10_2022_14_28_53	 Tab 2 	channel0/Left_PlotC/WinL1/AND/Right_PlotB/WinR1	
+30_10_2022_17_54_57	 Tab 2 	channel0/Left_PlotB/WinL1/AND/Right_PlotC/WinR1	
+30_10_2022_18_05_37	 Tab 2 	channel0/Left_PlotB/WinL1/AND/Right_PlotC/WinR1	
+30_10_2022_22_40_23	 Tab 2 	channel0/Left_PlotB/WinL1/AND/Right_PlotC/WinR1	
+30_10_2022_22_43_00	 Tab 2 	channel0/Left_PlotB/WinL1/AND/Right_PlotC/WinR1	
+31_10_2022_06_56_55	 Tab 2 	channel0/Left_PlotB/WinL1/AND/Right_PlotC/WinR1	
+31_10_2022_07_03_24	 Tab 2 	
+31_10_2022_07_04_52	 Tab 2 	channel0/Left_PlotB/WinL1/AND/Right_PlotC/WinR1	
+31_10_2022_07_06_39	 Tab 2 	channel0/Left_PlotB/WinL1/AND/Right_PlotC/WinR1	
+31_10_2022_07_08_38	 Tab 2 	channel0/Left_PlotB/WinL1/AND/Right_PlotC/WinR1	
+31_10_2022_08_54_59	 Tab 2 	channel0/Left_PlotB/WinL1/AND/Right_PlotC/WinR1	
+02_11_2022_20_00_32	 Tab 2 	channel3/Left_0/AND/Right_PlotC/WinR0	channel4/Left_1/AND/Right_PlotC/WinR1	channel5/Left_2/AND/Right_PlotC/WinR2	
+02_11_2022_20_08_19	 Tab 2 	channel3/Left_0/AND/Right_PlotC/WinR0	channel4/Left_1/AND/Right_PlotC/WinR1	channel5/Left_2/AND/Right_PlotC/WinR2	
+02_11_2022_20_12_01	 Tab 2 	channel0/Left_PlotA/WinL0/AND/Right_PlotB/WinR0	channel1/Left_PlotA/WinL1/AND/Right_PlotB/WinR1	channel2/Left_PlotA/WinL2/AND/Right_PlotB/WinR2	channel3/Left_0/AND/Right_PlotC/WinR0	channel4/Left_1/AND/Right_PlotC/WinR1	channel5/Left_2/AND/Right_PlotC/WinR2	
+02_11_2022_21_02_39	 Tab 2 	channel0/Left_PlotA/WinL0/AND/Right_PlotB/WinR0	channel1/Left_PlotA/WinL1/AND/Right_PlotB/WinR1	channel2/Left_PlotA/WinL2/AND/Right_PlotB/WinR2	channel3/Left_0/AND/Right_PlotC/WinR0	channel4/Left_1/AND/Right_PlotC/WinR1	channel5/Left_2/AND/Right_PlotC/WinR2	
+03_11_2022_16_24_00	 Tab 2 	channel0/Left_PlotA/WinL0/AND/Right_PlotB/WinR0	channel1/Left_PlotA/WinL1/AND/Right_PlotB/WinR1	channel2/Left_PlotA/WinL2/AND/Right_PlotB/WinR2	
+03_11_2022_16_32_48	 Tab 2 	channel0/Left_PlotA/WinL0/AND/Right_PlotB/WinR0	channel1/Left_PlotA/WinL1/AND/Right_PlotB/WinR1	channel2/Left_PlotA/WinL2/AND/Right_PlotB/WinR2	channel3/Left_0/AND/Right_PlotC/WinR0	channel4/Left_1/AND/Right_PlotC/WinR1	channel5/Left_2/AND/Right_PlotC/WinR2	
+08_11_2022_14_36_14	 Tab 2 	channel3/Left_0/AND/Right_PlotC/WinR0	channel4/Left_1/AND/Right_PlotC/WinR1	channel5/Left_2/AND/Right_PlotC/WinR2	
+08_11_2022_14_50_10	 Tab 2 	channel0/Left_PlotA/WinL0/AND/Right_PlotB/WinR0	channel1/Left_PlotA/WinL1/AND/Right_PlotB/WinR1	channel2/Left_PlotA/WinL2/AND/Right_PlotB/WinR2	channel3/Left_0/AND/Right_PlotC/WinR0	channel4/Left_1/AND/Right_PlotC/WinR1	channel5/Left_2/AND/Right_PlotC/WinR2	
+09_11_2022_11_58_29	 Tab 2 	channel0/Left_PlotA/WinL0/AND/Right_PlotB/WinR0	channel1/Left_PlotA/WinL1/AND/Right_PlotB/WinR1	channel2/Left_PlotA/WinL2/AND/Right_PlotB/WinR2	channel3/Left_0/AND/Right_PlotC/WinR0	channel4/Left_1/AND/Right_PlotC/WinR1	channel5/Left_2/AND/Right_PlotC/WinR2	
+09_11_2022_16_35_16	 Tab 2 	channel0/Left_PlotA/WinL0/AND/Right_PlotB/WinR0	channel1/Left_PlotA/WinL1/AND/Right_PlotB/WinR1	channel2/Left_PlotA/WinL2/AND/Right_PlotB/WinR2	channel3/Left_0/AND/Right_PlotC/WinR0	channel4/Left_1/AND/Right_PlotC/WinR1	channel5/Left_2/AND/Right_PlotC/WinR2	
+10_11_2022_11_14_19	 Tab 2 	channel3/Left_0/AND/Right_PlotC/WinR0	channel4/Left_1/AND/Right_PlotC/WinR0	channel5/Left_2/AND/Right_PlotC/WinR0	
+10_11_2022_11_19_15	 Tab 2 	channel0/Left_PlotA/WinL0/AND/Right_PlotB/WinR0	channel1/Left_PlotA/WinL1/AND/Right_PlotB/WinR1	channel2/Left_PlotA/WinL2/AND/Right_PlotB/WinR2	channel3/Left_0/AND/Right_PlotC/WinR0	channel4/Left_1/AND/Right_PlotC/WinR1	channel5/Left_2/AND/Right_PlotC/WinR2	
+10_11_2022_16_06_23	 Tab 2 	channel0/Left_PlotA/WinL0/AND/Right_PlotB/WinR0	channel1/Left_PlotA/WinL1/AND/Right_PlotB/WinR1	channel2/Left_PlotA/WinL2/AND/Right_PlotB/WinR2	channel3/Left_0/AND/Right_PlotC/WinR0	channel4/Left_1/AND/Right_PlotC/WinR1	channel5/Left_2/AND/Right_PlotC/WinR2	
+11_11_2022_14_23_43	 Tab 2 	channel0/Left_PlotA/WinL0/AND/Right_PlotB/WinR0	channel1/Left_PlotA/WinL1/AND/Right_PlotB/WinR1	channel2/Left_PlotA/WinL2/AND/Right_PlotB/WinR2	channel3/Left_0/AND/Right_PlotC/WinR0	channel4/Left_1/AND/Right_PlotC/WinR1	channel5/Left_2/AND/Right_PlotC/WinR2	
+22_11_2022_15_13_24	 Tab 2 	channel0/Left_PlotA/WinL0/AND/Right_PlotB/WinR0	channel1/Left_PlotA/WinL1/AND/Right_PlotB/WinR1	channel2/Left_PlotA/WinL2/AND/Right_PlotB/WinR2	channel3/Left_0/AND/Right_PlotC/WinR0	channel4/Left_1/AND/Right_PlotC/WinR1	channel5/Left_2/AND/Right_PlotC/WinR2	
+23_11_2022_09_20_23	 Tab 2 	channel3/Left_PlotA/WinL0/AND/Right_PlotB/WinR0	channel4/Left_PlotA/WinL1/AND/Right_PlotB/WinR1	channel5/Left_PlotA/WinL2/AND/Right_PlotB/WinR2	channel6/Left_3/AND/Right_PlotC/WinR0	channel7/Left_4/AND/Right_PlotC/WinR1	channel8/Left_5/AND/Right_PlotC/WinR2	
+23_11_2022_09_46_23	 Tab 2 	channel3/Left_PlotA/WinL0/AND/Right_PlotB/WinR0	channel4/Left_PlotA/WinL1/AND/Right_PlotB/WinR1	channel5/Left_PlotA/WinL2/AND/Right_PlotB/WinR2	channel6/Left_3/AND/Right_PlotC/WinR0	channel7/Left_4/AND/Right_PlotC/WinR1	channel8/Left_5/AND/Right_PlotC/WinR2	
+23_11_2022_09_50_24	 Tab 2 	channel3/Left_PlotA/WinL0/AND/Right_PlotB/WinR0	channel4/Left_PlotA/WinL1/AND/Right_PlotB/WinR1	channel5/Left_PlotA/WinL2/AND/Right_PlotB/WinR2	channel6/Left_3/AND/Right_PlotC/WinR0	channel7/Left_4/AND/Right_PlotC/WinR1	channel8/Left_5/AND/Right_PlotC/WinR2	
+23_11_2022_09_58_52	 Tab 2 	channel3/Left_PlotA/WinL1/AND/Right_PlotB/WinR1	channel4/Left_PlotA/WinL2/AND/Right_PlotB/WinR2	channel5/Left_2/AND/Right_PlotC/WinR0	channel6/Left_3/AND/Right_PlotC/WinR1	channel7/Left_4/AND/Right_PlotC/WinR2	
+23_11_2022_10_02_51	 Tab 2 	channel0/Left_PlotA/WinL0/AND/Right_PlotB/WinR0	channel1/Left_PlotA/WinL1/AND/Right_PlotB/WinR1	channel2/Left_PlotA/WinL2/AND/Right_PlotB/WinR2	channel3/Left_0/AND/Right_PlotC/WinR0	channel4/Left_1/AND/Right_PlotC/WinR1	channel5/Left_2/AND/Right_PlotC/WinR2	
+23_11_2022_10_37_39	 Tab 2 	
+23_11_2022_10_39_51	 Tab 2 	
+23_11_2022_10_45_07	 Tab 2 	channel0/Left_PlotA/WinL0/OR/Right_PlotB/WinR0	channel1/Left_PlotA/WinL0/OR/Right_PlotB/WinR0	channel2/Left_PlotB/WinL0/OR/Right_PlotB/WinR0	channel3/Left_PlotA/WinL0/OR/Right_PlotC/WinR0	channel4/Left_PlotC/WinL0/OR/Right_PlotB/WinR0	channel5/Left_PlotB/WinL0/OR/Right_PlotC/WinR0	channel6/Left_PlotC/WinL0/OR/Right_PlotC/WinR0	channel7/Left_PlotD/WinL0/OR/Right_PlotB/WinR0	
+23_11_2022_13_01_41	 Tab 2 	channel0/Left_PlotA/WinL1/AND/Right_PlotC/WinR1	channel1/Left_PlotB/WinL1/AND/Right_PlotC/WinR1	channel2/Left_PlotA/WinL0/AND/Right_PlotC/WinR0	channel3/Left_PlotA/WinL1/AND/Right_PlotC/WinR1	channel4/Left_PlotA/WinL2/AND/Right_PlotC/WinR2	channel5/Left_2/AND/Right_PlotC/WinR0	channel6/Left_3/AND/Right_PlotC/WinR1	channel7/Left_4/AND/Right_PlotC/WinR2	
+23_11_2022_13_07_41	 Tab 2 	channel0/Left_PlotA/WinL1/AND/Right_PlotC/WinR1	channel1/Left_PlotB/WinL1/AND/Right_PlotC/WinR1	channel2/Left_PlotA/WinL0/AND/Right_PlotB/WinR0	channel3/Left_PlotA/WinL1/AND/Right_PlotB/WinR1	channel4/Left_PlotA/WinL2/AND/Right_PlotB/WinR2	channel5/Left_2/AND/Right_PlotC/WinR0	channel6/Left_3/AND/Right_PlotC/WinR1	channel7/Left_4/AND/Right_PlotC/WinR2	
+28_11_2022_16_09_29	 Tab 2 	channel0/Left_PlotA/WinL1/AND/Right_PlotC/WinR1	channel1/Left_PlotB/WinL1/AND/Right_PlotC/WinR1	channel2/Left_PlotA/WinL0/AND/Right_PlotB/WinR0	channel3/Left_PlotA/WinL1/AND/Right_PlotB/WinR1	channel4/Left_PlotA/WinL2/AND/Right_PlotB/WinR2	channel5/Left_2/AND/Right_PlotC/WinR0	channel6/Left_3/AND/Right_PlotC/WinR1	channel7/Left_4/AND/Right_PlotC/WinR2	
+31_07_2023_14_29_32	 Tab 2 	
+31_07_2023_14_29_38	 Tab 2 	
+02_08_2023_17_17_59	 Tab 2 	
+02_08_2023_17_18_20	 Tab 2 	
+02_08_2023_18_08_05	 Tab 2 	
+02_08_2023_18_12_52	 Tab 2 	
+03_08_2023_11_48_08	 Tab 2 	
+03_08_2023_13_40_33	 Tab 2 	
+03_08_2023_13_42_30	 Tab 2 	
+03_08_2023_13_47_15	 Tab 2 	
+03_08_2023_13_47_30	 Tab 2 	
+03_08_2023_13_47_43	 Tab 2 	
+14_09_2023_13_05_08	 Tab 2 	
+14_09_2023_13_59_57	 Tab 2 	
+14_09_2023_14_00_08	 Tab 2 	
+14_09_2023_14_00_28	 Tab 2 	channel0/Left_0/OR/Right_0	channel1/Left_0/OR/Right_0	
+14_09_2023_14_04_01	 Tab 2 	
+14_09_2023_14_05_25	 Tab 2 	
+14_09_2023_14_22_35	 Tab 2 	
+14_09_2023_15_32_00	 Tab 2 	
+13_11_2023_16_47_01	 Tab 2 	channel0/Left_PlotA/WinL0/AND/Right_PlotB/WinR0	
+13_11_2023_16_58_09	 Tab 2 	channel0/Left_PlotA/WinL0/AND/Right_PlotB/WinR0	
+13_11_2023_17_02_47	 Tab 2 	channel0/Left_PlotA/WinL0/AND/Right_PlotB/WinR0	
+06_12_2023_14_00_08	 Tab 2 	channel0/Left_PlotA/WinL0/AND/Right_PlotC/WinR0	channel1/Left_PlotA/WinL2/AND/Right_PlotC/WinR0	
+08_12_2023_15_06_31	 Tab 2 	channel0/Left_PlotA/WinL1/AND/Right_PlotC/WinR1	channel1/Left_PlotA/WinL1/AND/Right_PlotD/WinR1	channel2/Left_PlotB/WinL1/AND/Right_PlotC/WinR1	channel3/Left_PlotB/WinL1/AND/Right_PlotD/WinR1	
+31_01_2024_14_16_18	 Tab 2 	
+31_01_2024_14_52_47	 Tab 2 	
