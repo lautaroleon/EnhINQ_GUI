@@ -1,5 +1,9 @@
 #include "timetaggerultra.h"
 
+// std::cout, used throughout for status logging. Time Tagger SDK 2.16's
+// headers pulled <iostream> in transitively; 2.22's no longer do.
+#include <iostream>
+
 timetaggerUltra::timetaggerUltra()
 {
 

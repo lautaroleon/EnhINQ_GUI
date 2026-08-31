@@ -19,17 +19,44 @@ unix {
     CONFIG += link_pkgconfig
 }
 
-# Vendor SDKs expected in ../lib for a Windows build (all three ship a
-# Windows build per their own docs -- get the actual .lib/.dll names from
-# whichever SDK version you install, these are best-guess placeholders):
-#   ftd3xx.lib   / FTD3XX.dll     (FTDI D3XX driver -- linked transitively
-#                                   via tdcbase; may not be needed directly)
-#   tdcbase.lib  / tdcbase.dll    (qutools quTAG SDK)
-#   TimeTagger.lib / TimeTagger.dll (Swabian Instruments Time Tagger SDK)
-# Qt's mkspec maps "-lNAME" to "NAME.lib" for MSVC, so this LIBS line only
-# needs the actual filenames to match once they're in place.
+# Vendor SDKs for a Windows build. The qutools quTAG SDK ships its Windows
+# binaries in ../lib/DLL_64bit (tdcbase.lib + tdcbase.dll, with FTD3XX.dll
+# and libusb0.dll alongside as its own runtime dependencies).
+#
+# FTD3XX is deliberately NOT in LIBS: the project makes no direct D3XX calls,
+# and the SDK ships only FTD3XX.dll with no import library -- tdcbase pulls
+# it in itself. The DLL still has to sit next to the built .exe at runtime.
+#
+# TimeTagger.lib / TimeTagger.dll (Swabian Instruments) is not in the repo
+# yet -- drop the Windows SDK's x64 files into ../lib/DLL_64bit to link it.
+# Qt's mkspec maps "-lNAME" to "NAME.lib" for MSVC.
 win32 {
-    LIBS += -L$$PWD/../lib/ -lftd3xx -ltdcbase -lTimeTagger
+    LIBS += -L$$PWD/../lib/DLL_64bit/ -ltdcbase
+
+    # Swabian Time Tagger SDK, from the vendor's Windows installer.
+    # Override the location with: qmake TIMETAGGER_DIR="C:/some/other/path"
+    isEmpty(TIMETAGGER_DIR) {
+        TIMETAGGER_DIR = "C:/Program Files/Swabian Instruments/Time Tagger"
+    }
+    !exists($$TIMETAGGER_DIR/driver/include/TimeTagger.h) {
+        error("Time Tagger SDK not found at $$TIMETAGGER_DIR -- install it or pass TIMETAGGER_DIR=<path> to qmake.")
+    }
+
+    # Deliberately via QMAKE_CXXFLAGS, not INCLUDEPATH: qmake emits
+    # "$(CXX) -c $(CXXFLAGS) $(INCPATH)", so this lands ahead of INCPATH and
+    # the SDK's headers win over the stale copies vendored into source/
+    # (source/TimeTagger.h is 2.16.2; the installed library is 2.22.4).
+    # The SDK dropped its top-level Iterators.h aggregator and moved the
+    # measurement headers into measurements/ -- source/Iterators.h still
+    # serves as the aggregator and its includes all resolve here.
+    QMAKE_CXXFLAGS += -I\"$$TIMETAGGER_DIR/driver/include\"
+    INCLUDEPATH += $$TIMETAGGER_DIR/driver/include
+
+    # Only the search path -- no -lTimeTagger. TimeTagger.h carries
+    # #pragma comment(lib, "TimeTagger"/"TimeTaggerD"), so the right import
+    # library is chosen per configuration; naming the release one here too
+    # would drag it into a Debug link alongside TimeTaggerD.
+    LIBS += -L\"$$TIMETAGGER_DIR/driver/x64\"
 }
 
 SOURCES += main.cpp\
