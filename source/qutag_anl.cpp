@@ -58,7 +58,7 @@ qutaganl::qutaganl(){
 }
 
 qutaganl::~qutaganl(){
- if(rawTT->isOpen())rawTT->close();
+ if(rawTT && rawTT->isOpen())rawTT->close();
  anlWorker1.quit();
  anlWorker1.wait();
 }
@@ -238,11 +238,14 @@ void qutaganl::saveRawTSon(int a){
 
     }
     else{
-        if(rawTT->isOpen()){
-            rawTT->close();
-            delete rawTT;
-            delete outTSstream;
-        }
+        // outTSstream wraps rawTT and flushes into it when destroyed, so it
+        // has to go first. Both are nulled so a repeated saveRawTSon(0), or
+        // ~qutaganl() afterwards, doesn't touch freed memory.
+        delete outTSstream;
+        outTSstream = nullptr;
+        if(rawTT && rawTT->isOpen()) rawTT->close();
+        delete rawTT;
+        rawTT = nullptr;
         saveTSon=false;
     }
 }

@@ -17,6 +17,24 @@ unix {
     LIBS += -L$$PWD/../lib/ -lftd3xx -ltdcbase -lTimeTagger
     PKGCONFIG +=
     CONFIG += link_pkgconfig
+
+    # Swabian Time Tagger SDK headers. source/Iterators.h aggregates
+    # "measurements/*.h", which only the SDK ships -- without this the build
+    # fails on measurements/ChannelGate.h. The Linux package installs under
+    # /usr/include by default; override with:
+    #   qmake TIMETAGGER_INC=/path/to/include
+    isEmpty(TIMETAGGER_INC) {
+        TIMETAGGER_INC = /usr/include
+    }
+    exists($$TIMETAGGER_INC/measurements/Countrate.h) {
+        # Ahead of INCLUDEPATH (see the win32 note) so the SDK's TimeTagger.h
+        # wins over the stale 2.16.2 copy vendored in source/.
+        QMAKE_CXXFLAGS += -I$$TIMETAGGER_INC
+        INCLUDEPATH += $$TIMETAGGER_INC
+    } else {
+        warning("Time Tagger SDK headers not found under $$TIMETAGGER_INC (no measurements/).")
+        warning("If the build fails on measurements/*.h, pass TIMETAGGER_INC=<path> to qmake.")
+    }
 }
 
 # Vendor SDKs for a Windows build. The qutools quTAG SDK ships its Windows
@@ -49,14 +67,25 @@ win32 {
     # The SDK dropped its top-level Iterators.h aggregator and moved the
     # measurement headers into measurements/ -- source/Iterators.h still
     # serves as the aggregator and its includes all resolve here.
+    # $$quote() on the INCLUDEPATH entry matters: the default location has a
+    # space in it ("Program Files"), and unquoted qmake splits it into four
+    # bogus -I flags.
     QMAKE_CXXFLAGS += -I\"$$TIMETAGGER_DIR/driver/include\"
-    INCLUDEPATH += $$TIMETAGGER_DIR/driver/include
+    INCLUDEPATH += $$quote($$TIMETAGGER_DIR/driver/include)
 
     # Only the search path -- no -lTimeTagger. TimeTagger.h carries
     # #pragma comment(lib, "TimeTagger"/"TimeTaggerD"), so the right import
     # library is chosen per configuration; naming the release one here too
     # would drag it into a Debug link alongside TimeTaggerD.
     LIBS += -L\"$$TIMETAGGER_DIR/driver/x64\"
+
+    # main() allocates MainWindow on the stack (main.cpp) and the object is
+    # large -- qkdLines alone is 4*7*2000 pointers, ~450 KB. Linux gives the
+    # main thread 8 MB of stack so this was never visible there; Windows
+    # defaults to 1 MB and the process dies with STATUS_STACK_OVERFLOW
+    # (0xC00000FD) before the window is ever shown. Match Linux's 8 MB.
+    win32-msvc*: QMAKE_LFLAGS += /STACK:8388608
+    else:win32-g++: QMAKE_LFLAGS += -Wl,--stack,8388608
 }
 
 SOURCES += main.cpp\

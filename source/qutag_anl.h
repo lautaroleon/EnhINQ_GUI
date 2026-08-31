@@ -124,8 +124,11 @@ signals:
                                         const vectorInt &in_QKD_ph, const vectorInt &in_QKD_zero, const vectorInt &in_QKD_iw,
                                         const vectorInt &logicOP, bool saveTSon);
 private:
- QFile *rawTT;
- QTextStream *outTSstream;
+ // Only allocated while raw-timestamp saving is on (saveRawTSon). Must stay
+ // null-initialised: ~qutaganl() checks rawTT, and on a run where saving was
+ // never enabled an indeterminate value here is dereferenced on shutdown.
+ QFile *rawTT = nullptr;
+ QTextStream *outTSstream = nullptr;
  bool break_=false;
   QVector<double> histo1data;
   std::ofstream file;

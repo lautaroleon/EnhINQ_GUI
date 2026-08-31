@@ -23,6 +23,17 @@ debug/
 release/
 profile/
 build-*/
+build/
+dist/
+
+# --- Qt Creator local state ---
+.qtcreator/
+CMakeLists.txt.user
+
+# --- Vendor SDK debug symbols. Large (2-4 MB each), never needed to build or
+#     run, and pure noise in git history. The .dll/.lib next to them are what
+#     the build actually uses. ---
+*.pdb
 
 # --- Misc ---
 RawTS_*

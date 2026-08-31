@@ -1,5 +1,14 @@
 <RCC>
     <qresource prefix="/">
         <file>logo15.png</file>
+        <!-- Fonts are bundled so the UI renders identically on Linux and
+             Windows. Without this, the font request in main.cpp matches no
+             installed family and each platform silently falls back to its own
+             monospace default (DejaVu Sans Mono on Ubuntu, Courier New on
+             Windows). DejaVu is permissively licensed; see the copy in
+             fonts/LICENSE-DejaVu.txt.
+             Resource paths: :/fonts/DejaVuSansMono.ttf and the -Bold variant. -->
+        <file>fonts/DejaVuSansMono.ttf</file>
+        <file>fonts/DejaVuSansMono-Bold.ttf</file>
     </qresource>
 </RCC>
